@@ -79,10 +79,6 @@
             if (this.checkFoodCollision()) {
                 this.placeFood();
                 Snake.incrementScore();
-                Snake.incrementScore();
-                Snake.incrementScore();
-                Snake.incrementScore();
-                Snake.incrementScore();
             } else if (this.checkSnakeCollision()) {
                 Snake.endGame();
             } else {
